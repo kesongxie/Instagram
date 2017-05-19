@@ -71,8 +71,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         installation?.setDeviceTokenFrom(deviceToken)
         installation?.channels = ["global"]
         installation?.saveInBackground()
-        print(PFUser.current())
-        
     }
    
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {

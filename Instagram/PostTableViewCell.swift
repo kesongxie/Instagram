@@ -21,7 +21,6 @@ class PostTableViewCell: UITableViewCell {
                 self.playVideo()
             }
             self.likesCountLabel.text = ""
-            
             let text = (self.post.author!.username! + " " + self.post.caption!)
             let attributedString = NSMutableAttributedString(string: text)
             let font = UIFont(name: "HelveticaNeue-Medium", size: 15.0)
@@ -97,6 +96,10 @@ class PostTableViewCell: UITableViewCell {
             self.post.likes = (self.post.likes ?? 0) + 1
             post.isLiked = 1
             post.isFavored = true
+            //send a remote notifcation
+            
+            
+            
         }
     }
     

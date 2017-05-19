@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
-                configuration.applicationId = "codepath-week6-instagram"
+                configuration.applicationId = "codepath-instagram-week6"
                 configuration.clientKey = nil  // set to nil assuming you have not set clientKey
                 configuration.server = "https://codepath-instragram.herokuapp.com/parse"
             })
@@ -71,6 +71,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         installation?.setDeviceTokenFrom(deviceToken)
         installation?.channels = ["global"]
         installation?.saveInBackground()
+        print(PFUser.current())
+        
     }
    
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {

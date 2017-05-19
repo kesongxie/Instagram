@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationTableViewCell" rowHeight="131" id="KGk-i7-Jjw" customClass="NotificationTableViewCell" customModule="Instagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="131"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="130.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t6A-eA-tcS">
+                        <rect key="frame" x="16" y="16" width="48" height="48"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="JWk-t6-uFI"/>
+                            <constraint firstAttribute="width" constant="48" id="y7x-MU-Uod"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Riz-2o-RAJ">
+                        <rect key="frame" x="72" y="16" width="37" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zio-rb-ffL">
+                        <rect key="frame" x="72" y="41" width="305" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSx-Yr-zrM" userLabel="Sparator View">
+                        <rect key="frame" x="72" y="78" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.1960784314" green="0.20000000000000001" blue="0.20784313730000001" alpha="0.059999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="G3D-50-HRi"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjS-zd-e1q">
+                        <rect key="frame" x="117" y="16" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Riz-2o-RAJ" firstAttribute="leading" secondItem="t6A-eA-tcS" secondAttribute="trailing" constant="8" id="18F-xU-e8X"/>
+                    <constraint firstItem="oSx-Yr-zrM" firstAttribute="leading" secondItem="zio-rb-ffL" secondAttribute="leading" id="73a-yn-ws4"/>
+                    <constraint firstItem="zio-rb-ffL" firstAttribute="leading" secondItem="Riz-2o-RAJ" secondAttribute="leading" id="CX6-I5-mDV"/>
+                    <constraint firstItem="t6A-eA-tcS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="GCS-yj-FAf"/>
+                    <constraint firstItem="jjS-zd-e1q" firstAttribute="baseline" secondItem="Riz-2o-RAJ" secondAttribute="baseline" id="Kte-0f-3V0"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oSx-Yr-zrM" secondAttribute="bottom" constant="12" id="WB1-K8-mlR"/>
+                    <constraint firstItem="t6A-eA-tcS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="XlO-Zc-vWG"/>
+                    <constraint firstItem="zio-rb-ffL" firstAttribute="top" secondItem="Riz-2o-RAJ" secondAttribute="bottom" constant="8" id="Y38-1N-oeb"/>
+                    <constraint firstItem="oSx-Yr-zrM" firstAttribute="trailing" secondItem="zio-rb-ffL" secondAttribute="trailing" id="aqm-wA-UCH"/>
+                    <constraint firstItem="jjS-zd-e1q" firstAttribute="leading" secondItem="Riz-2o-RAJ" secondAttribute="trailing" constant="8" id="dfI-nx-L1d"/>
+                    <constraint firstItem="Riz-2o-RAJ" firstAttribute="top" secondItem="t6A-eA-tcS" secondAttribute="top" id="hlh-pH-6LO"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t6A-eA-tcS" secondAttribute="bottom" constant="16" id="oqI-34-fEA"/>
+                    <constraint firstAttribute="trailing" secondItem="zio-rb-ffL" secondAttribute="trailing" constant="20" id="rNP-j0-teF"/>
+                    <constraint firstItem="oSx-Yr-zrM" firstAttribute="top" secondItem="zio-rb-ffL" secondAttribute="bottom" constant="20" id="zSY-bD-Kxc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="zio-rb-ffL" id="Xtg-yq-gBg"/>
+                <outlet property="nameLabel" destination="Riz-2o-RAJ" id="cg7-dt-vS8"/>
+                <outlet property="profileImageView" destination="t6A-eA-tcS" id="cKg-Bo-2cr"/>
+                <outlet property="timeLabel" destination="jjS-zd-e1q" id="N3a-Ew-AK0"/>
+            </connections>
+            <point key="canvasLocation" x="144.5" y="97.5"/>
+        </tableViewCell>
+    </objects>
+</document>

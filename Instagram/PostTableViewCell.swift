@@ -99,6 +99,8 @@ class PostTableViewCell: UITableViewCell {
             //send a remote notifcation
             
             
+            PFCloud.callFunction(inBackground: "iosPushTest", withParameters: ["text" : "Testing"])
+            
             
         }
     }

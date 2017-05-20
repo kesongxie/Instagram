@@ -10,7 +10,6 @@ Parse.Cloud.define("iosPushTest", function(request, response) {
   var messageText = params.text;
 	
 
-  var receiver = request.object.get("ReceiverId");
   var userQuery = new Parse.Query(Parse.User);
   userQuery.equalTo("username", "kesongxie");		
 

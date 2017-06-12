@@ -30,8 +30,6 @@ class PostTableViewCell: UITableViewCell {
             self.detailLabel.attributedText = attributedString
            
            self.updateLikeAppearance()
-
-            
         }
     }
     

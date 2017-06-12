@@ -113,7 +113,7 @@ class CaptureViewController: UIViewController {
     
     func libraryPanned(_ gesture: UIPanGestureRecognizer){
         let pos = gesture.translation(in: self.view)
-        self.view.layoutIfNeeded()
+         self.view.layoutIfNeeded()
         switch gesture.state {
         case .changed:
             if pos.y >= 0{

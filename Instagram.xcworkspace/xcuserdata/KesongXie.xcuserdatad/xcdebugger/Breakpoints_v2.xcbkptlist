@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Instagram/HomeViewController.swift"
-            timestampString = "516700033.176144"
+            timestampString = "519374579.586764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "HomeViewController"
             landmarkType = "4">
          </BreakpointContent>

@@ -79,12 +79,14 @@ class HomeViewController: UIViewController {
     
     
     func loadTimeline(){
-        PFUser.getTimeLine { (posts, error) in
-            self.refreshControl.endRefreshing()
-            print("reload time line")
-            if let posts = posts{
-                self.posts = posts
-                
+        DispatchQueue.main.async {
+            PFUser.getTimeLine { (posts, error) in
+                self.refreshControl.endRefreshing()
+                print("reload time line")
+                if let posts = posts{
+                    self.posts = posts
+                    
+                }
             }
         }
     }

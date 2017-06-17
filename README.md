@@ -44,6 +44,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough 
 
+## High Quality on YouTube:
+https://www.youtube.com/watch?v=VwMpkzJodt4&feature=youtu.be
+
+## Gif
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/kesongxie/CodePath-Instagram-week6/blob/master/Instagram/gif%20demo/Instagram-Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />

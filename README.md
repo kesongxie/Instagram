@@ -24,22 +24,21 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Custom camera view for video recording using AVFoundation
-- [x] Drawing on Videos with AVMutableComposition
+- [x] Custom camera view for video recording using **AVFoundation**
+- [x] Drawing on Videos with **AVMutableComposition**
 - [x] Streamming video posts on timeline simultaneously
 - [x] Streamming video posts on timeline simultaneously
-- [x] Favor post annimation on tap gesture
+- [x] Favor post annimation with **UITapGestureRecognizer**
 - [x] Search tab: load videos files on the banner selected ramdomly using random number generator, and browsing existing posts
 - [x] Search tab: allow user, tags, and places searching
-- [x] Notification Center: with Following and You tabs 
+- [x] Notification Center: with Following and You tabs, and switchable with **UIPageViewController**
 - [x] Profile tab: allow user to update profile information including username, fullname, profile image, website and bio
-- [x] Profile tab: navigatable website browsing using UIWebView with custom progress bar
-- [x] Customize photo picker and added interactive opacity annimation of background elements such as recording button, switching control when photo picker is presented or dismissed, UIPanGesture supported
-- [x] Login: Gradient background with CABasicAnimation
+- [x] Profile tab: navigatable website browsing using **UIWebView** with custom progress bar
+- [x] Customize photo picker and added interactive opacity annimation of background elements such as recording button, switching control when photo picker is presented or dismissed, **UIPanGestureRecognizer** supported
+- [x] Login: Gradient background with **CABasicAnimation**
 
 
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
+Additional features want to work on: 
 1. High Perfomance Video Filters, etc
 2. Zooming effect for photo browsing
 

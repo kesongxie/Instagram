@@ -35,6 +35,7 @@ The following **additional** features are implemented:
 - [x] Profile tab: allow user to update profile information including username, fullname, profile image, website and bio
 - [x] Profile tab: navigatable website browsing using UIWebView with custom progress bar
 - [x] Customize photo picker and added interactive opacity annimation of background elements such as recording button, switching control when photo picker is presented or dismissed, UIPanGesture supported
+- [x] Login: Gradient background with CABasicAnimation
 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):

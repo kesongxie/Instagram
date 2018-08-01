@@ -27,7 +27,6 @@ The following **additional** features are implemented:
 - [x] Custom camera view for video recording using **AVFoundation**
 - [x] Drawing on Videos with **AVMutableComposition**
 - [x] Streamming video posts on timeline simultaneously
-- [x] Streamming video posts on timeline simultaneously
 - [x] Favor post annimation with **UITapGestureRecognizer**
 - [x] Search tab: load videos files on the banner selected ramdomly using random number generator, and browsing existing posts
 - [x] Search tab: allow user, tags, and places searching
